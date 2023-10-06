@@ -92,7 +92,7 @@ do {
 } while (condition);
 ```
 
- # **ALGORITHM**
+ ## **ALGORITHM**
 
  - **Calculator program using Switch-Case**
 
