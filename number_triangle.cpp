@@ -6,18 +6,30 @@ Print Number Triaangle*/
 using namespace std;
 
 int main() {
-    int i, j;
-    for (i = 0; i < 5; i++)
+    int k,i,j;
+
+    cout<<"Enter the number of rows :";
+    cin>>k;
+
+    for(i = 0;i < k;i++)
     {
-        for (j = 0; j < 5; j++)
+        for(j = 0;j < i;j++)
         {
-            cout << j << " ";
+            cout<<i;
         }
-        cout << '\n';
+
+        cout<<endl;
     }
+
     return 0;
 }
 /*
 Output:
+Enter the number of rows :6
 
+1
+22
+333
+4444
+55555
 */
